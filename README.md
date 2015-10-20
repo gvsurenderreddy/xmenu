@@ -1,2 +1,2 @@
 # xmenu
-Instead of replimenu in thinstation
+Instead of replimenu in thinstation.
