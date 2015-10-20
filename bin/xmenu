@@ -8,7 +8,7 @@ IPSHOW=$(ifconfig | grep 'inet addr:'| grep -v '127.0.0.1' | cut -d: -f2 | awk '
 xsetroot -cursor_name top_left_arrow -solid rgb:4B/69/83
 
 #Menu zenity:
-ip=`zenity --list --timeout=30 --height=350 --print-column=1,2 --hide-column=1,2 \
+ip=`zenity --list --timeout=30 --height=250 --print-column=1,2 --hide-column=1,2 \
 --text="ХОСТ: $(hostname) ||| IP: $IPSHOW""\n"'<span foreground="blue">\
 \nДля выключения компьютера нажмите [Cancel]\n\
 Для подключения выберите сервер и нажмите [OK]\n\
